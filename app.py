@@ -48,6 +48,8 @@ def wikipedia_qna():
     heading = """
     # Wikipedia Q&A
     """
+    parsed_article = bs.BeautifulSoup(article, 'lxml')
+
     heading
     user_input = st.text_input("Wikipedia Link:", value="https://en.wikipedia.org/wiki/Machine_learning")
     question = st.text_input("Question:")
