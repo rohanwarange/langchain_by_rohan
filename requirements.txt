@@ -2,3 +2,4 @@ streamlit==1.2
 pdfplumber==0.10.2
 transformers==4.33.1
 torch==2.0.1
+beautifulsoup4==4.10.0
